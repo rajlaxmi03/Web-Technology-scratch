@@ -1,0 +1,38 @@
+/*universal selector */
+* {
+    color: blue;
+    background-color: yellow;
+}
+/* tag/element /type selector */
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: red;
+}
+
+/* id selector*/
+#heading1 {
+    color: white;
+}
+
+/* class selector */
+
+.odd {
+    background-color: green;
+}
+
+.even {
+    background-color: skyblue;
+}
+
+.center {
+    text-align: center;
+}
+
+/*   group selector */
+
+a, h1 {
+    font-size: 40px;
+}
