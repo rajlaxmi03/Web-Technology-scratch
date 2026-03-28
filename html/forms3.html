@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkboxes in html</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Details1</legend>
+    <label>
+<input type="checkbox" name="html">HTML
+    </label>
+    <label>
+<input type="checkbox" name="css">CSS
+    </label>
+    <label>
+<input type="checkbox" name="javascript">JAVASCRIPT
+    </label>
+<br><br>
+<!--to check what the user have selected   idea that server gets-->
+<label>
+<input type="checkbox" name="op1" value="html">HTML
+    </label><label>
+<input type="checkbox" name="op2" value="css">css
+    </label><label>
+<input type="checkbox" name="op3" value="javascript">javascript
+    </label>
+    <br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend> details2</legend>
+<label>
+    <input type="radio">Male
+</label>
+<label>
+    <input type="radio">Female
+</label>
+<br><br>
+<label>Enter gender:</label>
+<!-- either from on eyou want to select only one you can use name attribute-->
+<!-- in order to tell server what we are passing we use value attribute-->
+<label>
+    <input type="radio" name="gender" value="m">Male
+</label>
+<label>
+    <input type="radio" name="gender" value="f">Female
+</label>
+<br><br>
+<label>upload pan card:</label>
+<input type="file">
+<!-- to accept only pdf file we use pdf attribute-->
+<br><br>
+<label>upload pan card:</label>
+<input type="file" accept=".pdf">
+</fieldset>
+<br> <br>
+<label>Rate yourself in html:</label>
+<input type="range" min="1" max="10" name="rating" value="0">
+<br><br>
+<label for="color">choose your fav colour</label>
+<select id="color">
+    <option>pink</option>
+    <option>black</option>
+    <option>green</option>
+</select>
+<!-- to give externally to server value attribute is used-->
+<label for="color">choose your fav colour</label>
+<select id="color">
+    <option value="pink">pink</option>
+    <option value="black" selected>black</option>
+    <option value="green"> green</option>
+</select>
+<fieldset>
+    <legend>details 3</legend>
+<label for="color">choose your fav colour</label>
+<select id="color" size="2"
+    <option>pink</option>
+    <option>black</option>
+    <option>green</option>
+    <option>green</option>
+    <option>green</option>
+    <option>green</option>
+</select>
+</fieldset>
+<label for="feedback">Enter feedback: </label>
+<textarea id="feedback">Enter feedback here:</textarea>
+
+<label for="feedback">Enter feedback: </label>
+<textarea id="feedback" rows="5" cols="50" name="feedback" placeholder="Enter feedback here:">  </textarea>
+</form>
+</body>
+</html> 
